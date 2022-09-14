@@ -7,3 +7,5 @@ export const Layout = ({children}: LayoutProps) => {
 		<div className={styles.layout}> {children} </div>
 	)
 }
+
+// Я бы использовал styled-component... но плохо дружит он в dev с Next'ом
