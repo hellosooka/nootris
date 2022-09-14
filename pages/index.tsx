@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styled from 'styled-components'
+import { Body } from '../components/Body/Body'
 import { NavBar } from '../components/NavBar/NavBar'
 import { Layout } from '../layout/Layout'
 
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
       </Head>
 
       <NavBar/>
+      <Body />
 
       
     </Layout>

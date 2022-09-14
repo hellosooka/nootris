@@ -1,0 +1,252 @@
+.container {
+	width: 100%;
+	height: 970px;
+	background: #FCDA28;
+	transition: 3s;
+}
+
+.title {
+	position: absolute;
+	color: white;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 144px;
+	line-height: 152px;
+	max-width: 300px;
+
+	left: 64px;
+	top: 76px;
+}
+
+.subtitle {
+	position: absolute;
+	width: 672px;
+	height: 54px;
+
+	left: 64px;
+	top: 490px;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.infoTitle {
+	position: absolute;
+	width: 416px;
+	height: 24px;
+	left: 64px;
+	top: 654px;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.infoSubTitle {
+	position: absolute;
+	width: 416px;
+	height: 42px;
+	left: 64px;
+	top: 724px;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+
+.ginger {
+	position: absolute;
+	right: 280px;
+	top: 402.72px;
+}
+
+.tables {
+	position: absolute;
+	right: 375px;
+	top: 202.72px;
+}
+
+.lemon {
+	position: absolute;
+	right: 460px;
+	top: 572.72px;
+}
+
+.bg {
+	position: absolute;
+	top: 79px;
+	
+}
+
+@media (max-width: 1300px) {
+	.bg {
+		top: 538px;
+	}
+
+	.container {
+		height: 1830px;
+	}
+
+	.content {
+		position: absolute;
+		top: 430px;
+	}
+
+	.ginger {
+		position: relative;
+		right: -500px;
+		top: 850px;
+	}
+
+	.tables {
+		position: relative;
+		right: -675px;
+		top: 230px;
+	}
+
+	.lemon {
+		position: relative;
+		right: -283px;
+		top: -30px;
+	}
+	
+	.bg5 {
+		top: 935px
+	}
+
+	.bg1 {
+		top: 935px
+	}
+
+	.bg6 {
+		top: 935px
+	}
+
+	
+	
+}
+
+
+
+
+@media(max-width: 1080px) {
+	.title {
+		font-size: 100px;
+		line-height: 102px;
+	}
+
+	.subtitle {
+		font-size: 22px;
+		top: 340px;
+	}
+
+	.infoTitle {
+		top: 500px;
+	}
+
+	.infoSubTitle {
+		top: 570px;
+	}
+
+	.ginger {
+		position: relative;
+		right: -450px;
+		top: 800px;
+	}
+
+	.tables {
+		position: relative;
+		right: -625px;
+		top: 170px;
+	}
+
+	.lemon {
+		position: relative;
+		right: -223px;
+		top: -80px;
+	}
+
+}
+
+@media(max-width: 790px) {
+	.title {
+		font-size: 80px;
+		line-height: 102px;
+	}
+
+	.subtitle {
+		font-size: 22px;
+		top: 320px;
+	}
+
+	.infoTitle {
+		top: 450px;
+	}
+
+	.infoSubTitle {
+		top: 520px;
+	}
+
+	.ginger {
+		position: relative;
+		right: -250px;
+		top: 900px;
+	}
+
+	.tables {
+		position: relative;
+		right: -425px;
+		top: 270px;
+	}
+
+	.lemon {
+		position: relative;
+		right: -23px;
+		top: 20px;
+	}
+
+}
+
+.bg3 {
+	right: 0px;
+}
+.bg2 {
+	left: 0px;
+}
+.bg4{
+	left: 0px;
+}
+.bg7 {
+	left: 0px;
+}
+
+
+
+.bg1 {
+	left: 0px;
+
+	
+	margin-top: 525px;
+}
+
+.bg5 {
+	margin-top: 460px;
+	right: 0px;
+}
+
+.bg6{
+	margin-top: 155px;
+	right: 0px;
+}
+
+
+

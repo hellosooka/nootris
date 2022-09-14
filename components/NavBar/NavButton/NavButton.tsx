@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavButtonProps } from './NavButton.props'
-import styled from 'styled-components'
+import style from './NavButton.module.css'
 
 export const NavButton = ({ children }: NavButtonProps ) => {
 	return (
-		<button> {children} </button>
+		<button className={style.button}> {children} </button>
 	)
 }
 
