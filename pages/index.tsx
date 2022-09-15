@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styled from 'styled-components'
 import { Body } from '../components/Body/Body'
+import Footer from '../components/Footer/Footer'
 import { NavBar } from '../components/NavBar/NavBar'
 import { Layout } from '../layout/Layout'
 
@@ -19,7 +20,7 @@ const Home: NextPage = () => {
 
       <NavBar/>
       <Body />
-
+      <Footer/>
       
     </Layout>
   )

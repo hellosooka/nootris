@@ -1,0 +1,134 @@
+.container {
+	display: grid;
+
+	width: 100%;
+	height: 900px;
+	background: #111111;
+}
+
+.titles {
+	margin-top: 80px;
+	padding-bottom: -50px;
+
+	height: 0px;
+}
+
+.TitleWhite {
+	text-align: center;
+
+	margin: auto 0;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 57px;
+
+	color: #FFFFFF;
+}
+
+.TitleOrange {
+	text-align: center;
+
+	padding-top: 5px;
+
+	margin: auto 0;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 57px;
+
+	color: #FCB500;
+}
+
+.prices {
+	margin: 0 auto;
+	padding: 200px 0px 40px 0px;
+	
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	column-gap: 30px;
+	
+}
+
+.oldPrice {
+	margin: auto 0;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 43px;
+
+	text-decoration: line-through;
+	display: grid;
+	justify-items: right;
+	color: #ADADAD;
+}
+
+.newPrice {
+	margin: auto 0;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 57px;
+
+	display: grid;
+	justify-items: left;
+
+	color:#FFFFFF;
+}
+
+.buyButton {
+	margin: 0 auto;
+
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+
+	color:#111111;
+
+	width: 256px;
+	height: 56px;
+
+	background: #FCB500;
+	border-radius: 7px;
+
+	border: 0px;
+}
+
+.pics {
+	display: flex;
+	justify-content: center;
+
+	column-gap: 220px;
+
+	margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+
+	.container {
+		height: 1600px;
+	}
+
+	.pics {
+		flex-direction: column;
+		row-gap: 50px;
+	}
+}
+
+@media (max-width: 800) {
+
+	.titles {
+		margin-top: 350px;
+		padding-bottom: 0px ;
+	}
+}

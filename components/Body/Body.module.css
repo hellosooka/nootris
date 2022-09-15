@@ -92,9 +92,33 @@
 	
 }
 
+@media(max-width: 1650px) {
+	
+
+	.ginger {
+		position: absolute;
+		right: 30px;
+		top: 402.72px;
+	}
+	
+	.tables {
+		position: absolute;
+		right: 125px;
+		top: 202.72px;
+	}
+	
+	.lemon {
+		position: absolute;
+		right: 210px;
+		top: 572.72px;
+	}
+
+}
+
+
 @media (max-width: 1300px) {
 	.bg {
-		top: 538px;
+		top: 509px;
 	}
 
 	.container {
@@ -125,15 +149,15 @@
 	}
 	
 	.bg5 {
-		top: 935px
+		top: 938px
 	}
 
 	.bg1 {
-		top: 935px
+		top: 938px
 	}
 
 	.bg6 {
-		top: 935px
+		top: 938px
 	}
 
 	
@@ -204,22 +228,24 @@
 	.ginger {
 		position: relative;
 		right: -250px;
-		top: 900px;
+		top: 850px;
 	}
 
 	.tables {
 		position: relative;
 		right: -425px;
-		top: 270px;
+		top: 220px;
 	}
 
 	.lemon {
 		position: relative;
 		right: -23px;
-		top: 20px;
+		top: -30px;
 	}
 
 }
+
+
 
 .bg3 {
 	right: 0px;

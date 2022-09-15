@@ -1,0 +1,49 @@
+.button {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	border: none;
+	color: white;
+	background: #111111;
+	padding-bottom: 10px ;
+}
+
+.counter {
+	position: absolute;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 24px;
+	/* or 200% */
+
+	background: #FCB500;
+	width: 18px;
+	height: 18px;
+	border-radius: 15px;
+
+	display: flex;
+
+	align-items: center;
+  justify-content: center;
+
+	right: 26px;
+	top: 30px;
+
+	color: black;
+}
+
+@media(max-width: 1300px) {
+	.counter {
+		width: 35px;
+		height: 35px;
+		border-radius: 40px;
+
+		position: absolute;
+		right: 20px;
+		top: 450px;
+		
+	}
+}
