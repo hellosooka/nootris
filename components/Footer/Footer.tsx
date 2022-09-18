@@ -53,7 +53,7 @@ export default function Footer() {
 			</div>
 
 			<div className={style.pics} >
-				{pics.map((props) => <Card {...props} /> )}
+				{pics.map((props) => <Card key={props.title} {...props} /> )}
 			</div>
 
 
